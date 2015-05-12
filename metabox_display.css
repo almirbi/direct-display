@@ -1,0 +1,154 @@
+.slides-display {
+    float: left;
+    width: 330px;
+    background: whitesmoke;
+    min-height: 300px;
+}
+
+.slides-display.active {
+    background: #a671ff;
+}
+
+.slides-available {
+    float: right;
+    background: whitesmoke;
+    width: 330px;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.slide {
+    max-width: 270px;
+    width: 270px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 3px;
+    background: #cbecfb;
+    border-radius: 7px;
+    text-align: center;
+    position: relative;
+}
+
+.slide button {
+    border-top-right-radius: 7px;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    background: none;
+    position: absolute;
+    font-family: fantasy;
+}
+
+.slide .name {
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 16px;
+}
+
+.slide button.remove-slide {
+    top: 0;
+    right: 4px;
+    margin-right: -5px;
+    color: #a4a4a4;
+}
+
+.slide button.slide-control-b {
+    position: relative;
+    color: #a4a4a4;
+    float: left;
+    margin: 6px;
+}
+
+.slides-available .remove-slide, .slides-available .slide-control-b {
+    display: none;
+}
+
+#search-slides {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.slides-display ul li, .slides-available li {
+    list-style: none;
+}
+
+.slide-control {
+    display: none;
+    background-color: whitesmoke!important;
+}
+
+div.slide-control h2 {
+    display: inline-block;
+    font-size: 1em!important;
+    margin: 0!important;
+}
+
+.duration {
+    display: inline-block;
+    margin-right: 3px;
+}
+
+.duration-picker {
+    display: none;
+}
+
+.duration-picker.active {
+    display: block;
+}
+
+.duration-picker .labels .middle {
+    margin-right: 25px;
+    margin-left: 25px;
+}
+.exact-label {
+    display: block;
+    text-align: left;
+    margin-left: 40px;
+}
+
+.duration-picker {
+    margin: 10px 0 10px 0;
+}
+
+div.slide-control span.ui-spinner {
+    margin:5px 0 5px 0!important;
+}
+
+#exact.duration-picker .ui-spinner {
+    width: 157px;
+}
+
+li.slide.add {
+    height: 47px;
+    background: whitesmoke;
+}
+
+li.slide.add span {
+    top: 8px;
+    font-size: 23px;
+    color: #555555;
+}
+
+li.slide:not(.add):hover{
+    background: snow!important;
+    cursor: move;
+}
+
+li.slide.add:hover span {
+    color: #e669ff;
+}
+
+li.slide span:hover {
+    color: #e669ff;
+}
+
+li.slide span {
+    font-size: 18px;
+}
+

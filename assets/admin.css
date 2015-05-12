@@ -1,0 +1,15 @@
+#title-prompt-text {
+    font-size: 1em!important;
+}
+
+.label {
+    font-size: 100% !important;
+}
+
+#adminmenuback {
+    z-index: 5;
+ }
+
+body {
+    background: none;
+}

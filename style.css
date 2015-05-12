@@ -1,0 +1,275 @@
+.side.block {
+    width: 30%;
+}
+
+/* side left */
+.side.i4, .side.i2 {
+    float: left;
+    height: 100%
+}
+
+.side.i4 {
+    height: 70%;
+}
+
+/* side right */
+.side.i1, .side.i3 {
+    float: right;
+    height: 100%
+}
+
+.side.i3 {
+    height: 70%;
+}
+
+/* main with  side */
+.main.block {
+    width: 70%;
+    height: 70%;
+}
+
+/* main only  */
+.main.i0 {
+    width:100%;
+    height:100%;
+}
+
+.main.i0, .main.i1, .main.i2 {
+    height:100%;
+}
+
+.bottom.block {
+    width: 100%;
+    /*max-height: 20%;*/
+}
+
+.block {
+    display: inline-block;
+    overflow: hidden;
+}
+
+.slide {
+    /*display: none;*/
+    background: url('http://p1.pichost.me/i/53/1771177.jpg');
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+;
+}
+
+div.slide.active {
+    display: block;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+body {
+    margin: 0;
+}
+
+.dcwss.dc-feed.light {
+    background: none!important;
+}
+
+.dcwss.dc-feed .dcwss-content {
+    height: auto !important;
+}
+
+.wall-outer {
+    padding: 7px;
+}
+
+.side .clock .point, .side .clock .sec {
+    font-size: 3vw;
+}
+
+.dc-feed ul.stream {
+ background: rgba(255, 255, 255, 0.18);
+}
+
+.dc-feed ul.stream li.dcsns-li {
+    border: none!important;
+}
+
+#wpc-weather .climacon.w804:before {
+    color: #FFFFFF!important;
+}
+
+.dcsns-toolbar {
+    display: none;
+}
+
+.block .text {
+    padding: 10px;
+    font-family: Roboto;
+    font-size: 2vw;
+}
+
+.dcwss.dc-wall .stream li {
+    font-size: 2vw!important
+}
+
+.dcwss.dc-feed .stream li {
+    font-size: 1.3vw!important
+}
+
+.dcwss-content {
+    text-shadow: none;
+}
+
+
+#icit_weather_widget--1 .weather-wrapper .main {
+    background: none!important;
+}
+
+#icit_weather_widget--1 .weather-wrapper .weather-forecast {
+    border: none!important;
+}
+
+.weather-forecast {
+    background: none!important;
+}
+
+#icit_weather_widget--1 .weather-wrapper .weather-forecast li,
+#icit_weather_widget--1 .weather-wrapper .weather-forecast .weather-day {
+    color: white!important;
+}
+
+#icit_weather_widget--1 .weather-wrapper .weather-forecast .weather-icon-thumb {
+    color: #000000!important;
+}
+
+#icit_weather_widget--1 .weather-wrapper .main .cond {
+    float: none!important;
+    display: inline-block;
+}
+
+.weather-temperature {
+    font-size: 6vw!important;
+}
+
+.dcwss.dc-feed.light .stream li {
+    background: rgba(255, 255, 255, 0.29)!important;
+}
+
+.main.block .weather-day, .main.block .temp,
+.bottom.block .weather-day, .bottom.block .temp, .bottom.block .weather-icon-thumb{
+    display: inline-block;
+}
+
+
+
+.block .temp {
+    color: black;
+}
+
+.block.main .temp {
+    font-size: 7vw;
+}
+
+.block.main .weather-icon-thumb {
+    font-size: 9vw!important;
+}
+
+
+
+.bottom.block .weather-wrapper .main {
+    float: left;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.block.side .temp {
+    font-size: 4vw!important;
+}
+
+.bottom.block .weather-day {
+     padding: 0!important;
+     margin-bottom: 10px!important;
+ }
+
+.bottom.block .temp {
+    font-size: 6vw;
+}
+
+.bottom.block .temp {
+    margin-left: 2vw;
+}
+
+.bottom.block .weather-icon-thumb {
+    font-size: 6vw!important;
+}
+
+.block .weather-day {
+    padding: 0!important;
+    margin-bottom: 10px!important;
+}
+
+.block .weather-day strong {
+    font-size: 7vw!important;
+}
+
+.block.bottom .weather-day strong {
+    font-size: 5vw!important;
+}
+
+
+.side.block .weather-day strong {
+    font-size: 4vw!important;
+}
+
+.side.block .weather-icon-thumb  {
+    font-size: 8vw!important;
+}
+
+ .weather-icon {
+    font-size: 8vw!important;
+}
+
+
+.block .text {
+    text-align: center;
+    color: white;
+
+}
+
+.dcwss.dc-feed .stream li.dcsns-twitter a {
+    color: #4265ff !important;
+}
+
+.dc-feed ul.stream {
+    background: none!important;
+}
+
+.dcwss.dc-feed .stream li .section-intro {
+    padding-bottom: 12px!important;
+}
+
+body {
+    overflow: hidden;
+}
+
+
+.dc-feed ul.stream {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.dcwss.dc-feed.light .stream li a {
+    color: white!important;
+}
+
+#wpadminbar {
+    display:none;
+}
+
+html {
+    margin: 0!important;
+}
