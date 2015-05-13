@@ -45,7 +45,7 @@ function frontend_enqueue_scripts() {
 
     wp_enqueue_script( 'fronend-custom',
                        get_template_directory_uri() . '/assets/frontend.custom.js',
-                       array(),
+                       array('jquery'),
                        '1.0.0',
                        true );
     $ajax_vars = array( 'updateDisplayUrl' => get_site_url() );
