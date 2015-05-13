@@ -20,7 +20,7 @@ function enqueue_admin_scripts() {
 
     wp_enqueue_script( 'mousewheel',
                        'https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.12/jquery.mousewheel.min.js',
-                       array(),
+                       array('jquery'),
                        '1.0.0',
                        true );
     wp_enqueue_script( 'globalize',
